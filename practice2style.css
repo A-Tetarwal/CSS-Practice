@@ -1,0 +1,20 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    /* width: 113px;
+    height: 48px; */
+    width: 45.2%;
+    height:19.2%
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer p{
+    font-size:25px;
+}
+#inner p{
+    font-size:10px;
+}

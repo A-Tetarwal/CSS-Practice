@@ -1,0 +1,40 @@
+/* *{
+    background-color:black;
+    color:white;
+} */
+
+#div1{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border-radius:50%;
+    margin: 10px;
+}
+
+nav{
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding:4px 10px 4px 10px;
+}
+
+nav ul li{
+    display: inline-table;
+}
+nav ul li h1{
+    color: orange;
+}
+nav ul li button{
+    color:white;
+    background-color:orange;
+    border:1.5px solid orange;
+    margin-left:1px;
+}
+
+img{
+    /* width:134px;
+    height:74px; */
+    /* width:53.6%;
+    height: 29.6%; */
+    width: fit-content;
+}
