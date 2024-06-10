@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(207, 207, 207); */
+    box-shadow: 0 0 30px rgb(207, 207, 207);
+}
+
+#heading {
+    margin-bottom: 20px;
+}
+
+#mini {
+    display: flex;
+}
+
+img {
+    width: 325px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: none;
+    height: 30px;
+
+    border-radius: 20px;
+    border: solid 1px rgb(207, 207, 207);
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: rgb(207, 207, 207);
+  }
+  
+  ::placeholder {
+    color: rgb(186, 186, 186);
+  }
+button {
+    margin: 10px;
+    /* padding: 10px; */
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 184px;
+    height: 30px;
+}
+form p a {
+    color: rgb(66, 66, 66);
+}
+
+@media (max-width : 600px) {
+    body {
+        background-image: url(good.jpg);
+    }
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    img {
+        display: none;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    input {
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        background-color: none;
+        height: 30px;
+    
+        border-radius: 20px;
+        border: solid 1px rgb(177, 177, 177);
+    }
+    
+    ::-ms-input-placeholder { /* Edge 12-18 */
+        color: rgb(207, 207, 207);
+      }
+      
+      ::placeholder {
+        color: rgb(103, 103, 103);
+      }
+}
